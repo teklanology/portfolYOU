@@ -4,7 +4,7 @@ description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : teklanology/portfolYOU    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 # remote_theme        : teklanology/portfolYOU
 
@@ -19,7 +19,6 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
@@ -57,6 +56,9 @@ collections:
     permalink: /projects/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
+  docs:
+    output: true
+    permalink: /docs/:name
 
 
 ### Disqus ###
@@ -87,6 +89,11 @@ defaults:
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "single"
 
 ### Exclude from processing ###
 exclude:
