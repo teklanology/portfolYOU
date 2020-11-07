@@ -1,11 +1,8 @@
 ### Site Settings ###
 title               : teklanology
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+description         : It's time Tekla did the work.
 baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : teklanology/portfolYOU    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : teklanology/teklanology.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 # remote_theme        : teklanology/portfolYOU
 
 
