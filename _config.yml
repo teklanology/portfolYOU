@@ -6,6 +6,15 @@ repository          : teklanology/teklanology.github.io    # Change to <your-use
 # remote_theme        : teklanology/portfolYOU
 
 
+### Blog RSS Settings ###
+name: teklanology
+# description: It's time Tekla did the work.
+url: https://teklanology.github.io/blog
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+
+
 ### Plugins ###
 plugins:
   - jemoji
