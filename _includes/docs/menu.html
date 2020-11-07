@@ -9,9 +9,10 @@
 {%- assign sections = sections | split:'|' | uniq | sort -%}
 
 <!-- List tags & related posts -->
+	<ul>
 {% for section in sections %}
 <div class="py-3">
-  <h4 id="{{ section | slugify }}">{{ section }}</h4>
+  <li id="{{ section | slugify }}">{{ section }}</li>
   <ul>
   {% for doc in site.docs %}
     {%- if doc.section == section -%}
@@ -30,3 +31,4 @@
 </div>
 <hr class="bg-light">
 {% endfor %}
+</ul>
