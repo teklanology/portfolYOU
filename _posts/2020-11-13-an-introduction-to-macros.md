@@ -1,7 +1,7 @@
 ---
 title: An introduction to macros
 created: 2020-11-13T21:13:43+00:00
-modified: 2020-11-13T21:33:55+00:00
+modified: 2020-11-13T21:37:27+00:00
 style: fill
 color: primary
 description: So what is a macro?
@@ -29,6 +29,6 @@ In some cases a combination of the two is the only option, like when the API doe
 
 When planning your macro, you need to decide whether a form is needed. Oftentimes, a macro is simple enough that a form isn't required, and any information can be conveyed to the user via fhe status bar in Tekla Structures.
 
-## Do you LinkedIn?
+## Are you LinkedIn?
 
 In addition to my other connected accounts, I have now created a [LinkedIn page](https://www.linkedin.com/company/teklanology), so feel free to say hi.
