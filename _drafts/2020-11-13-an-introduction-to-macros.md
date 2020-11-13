@@ -1,27 +1,25 @@
 ---
-title: An Introduction to macros
+title: An introduction to macros
 tags: 
 style: fill
 color: primary
-description: The writing is on the wall
+description: So what is a macro?
 ---
-
-![](https://source.unsplash.com/BofjcA9L2R0/1600x900)
 
 ## So what is a macro? 
 
 The definition of the word macro is "a single instruction that expands automatically into a set of instructions to perform a particular task".
 
-## The writing is on the wall
+## HIt record or write it from scratch?
 
 There are two methods for creating a macro for use in Tekla Structures, which are:
 
 - recorded macro
 - written macro
 
-Recorded macros are as they sound - recorded. Tekla Structures can record your actions within the menus & dialogs and generate the associated code in a .cs file. These don't use the API directly, instead the menus & dialogs act as a middle man to interact with objects. I consider a recorded macro as static, in the sense that it can only execute actions that are recorded.
+Recorded macros are as they sound - recorded. Tekla Structures can record your actions within its menus & dialogs and generate the associated code in a .cs file. These don't use the API directly, instead the menus & dialogs act as a middle man to interact with objects.
 
-Written macros are too, as they sound. Created mostly from scratch, they interact with objects directly using the API. I prefer this method mainly because i think the dialogs are cumbersome.
+Mostly created from scratch, written macros interact with objects directly using the API. I prefer this method because in my opinion the dialogs are cumbersome.
 
 In some cases a combination of the two is the only option, like when the API doesn't cater for a specific task and can only be achieved via a recorded macro.
 
