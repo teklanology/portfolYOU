@@ -1,7 +1,7 @@
 ---
 title: An introduction to macros
 created: 2020-11-13T21:13:43+00:00
-modified: 2020-11-13T21:20:00+00:00
+modified: 2020-11-13T21:33:55+00:00
 style: fill
 color: primary
 description: So what is a macro?
@@ -12,7 +12,7 @@ tags: null
 
 The definition of the word macro is "a single instruction that expands automatically into a set of instructions to perform a particular task".
 
-## HIt record or write it from scratch?
+## Hit record or write it from scratch?
 
 There are two methods for creating a macro for use in Tekla Structures, which are:
 
