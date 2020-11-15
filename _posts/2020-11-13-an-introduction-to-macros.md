@@ -1,9 +1,7 @@
 ---
 title: An introduction to macros
 created: 2020-11-13T21:13:43+00:00
-modified: 2020-11-15T22:24:06+00:00
-style: border
-color: primary
+modified: 2020-11-15T23:21:44+00:00
 description: So what is a macro?
 tags: null
 ---
