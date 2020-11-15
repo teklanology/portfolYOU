@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 weight: 1
+modified: 2020-11-15T22:58:22+00:00
 ---
 
 # It's time Tekla did the work.
@@ -18,4 +19,5 @@ So don't be shy - contact me on your preferred platform to see what is possible 
 - [Email](mailto:teklanology@outlook.com)
 - [Facebook](https://facebook.com/teklanology)
 - [Github](https://github.com/teklanology)
+- [LinkedIn](https://linkedin.com/company/teklanology)
 - [Twitter](https://twitter.com/teklanology)
