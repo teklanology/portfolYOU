@@ -1,10 +1,12 @@
 ---
 title: An introduction to macros
 created: 2020-11-13T21:13:43+00:00
-modified: 2020-11-15T23:21:44+00:00
+modified: 2020-11-16T11:11:21+00:00
 description: So what is a macro?
 tags: null
 ---
+
+![](../assets/home-page-image.jpg)
 
 ## So what is a macro? 
 
