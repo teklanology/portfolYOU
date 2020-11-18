@@ -2,7 +2,7 @@
   <ul>
   {% for doc in site.tutorials %}
     {%- assign url = doc.url | relative_url -%}
-      <li><a href="{{ url }}">{{ doc.path }}</a></li>
+      <li><a href="{{ url }}">{{ doc.url }}</a></li>
   {% endfor %}
   </ul>
 </div>
