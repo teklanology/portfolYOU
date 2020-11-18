@@ -1,7 +1,3 @@
----
-title: Tutorial 1 demo
----
-
 # Tutorial 1 demo
 
 ---
