@@ -1,0 +1,8 @@
+<div class="py-3">
+  <ul>
+  {% for doc in site.tutorials %}
+    {%- assign url = doc.url | relative_url -%}
+      <li><a href="{{ url }}">{{ doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>

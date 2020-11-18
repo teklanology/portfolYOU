@@ -28,6 +28,7 @@ nav_exclude:                                            # The following paths ar
   - pages/resume.md
   - pages/docs.html
   - pages/projects.html
+  - pages/tutorials.html
 
 
 ### Author Info ###
@@ -68,6 +69,9 @@ collections:
   docs:
     output: true
     permalink: /docs/:name
+  tutorials:
+    output: true
+    permalink: /tutorials/:name
 
 
 ### Disqus ###
@@ -103,6 +107,11 @@ defaults:
       type: "docs"
     values:
       layout: "single"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "slides"
 
 ### Exclude from processing ###
 exclude:
