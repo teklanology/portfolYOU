@@ -28,7 +28,7 @@ nav_exclude:                                            # The following paths ar
   - pages/resume.md
   - pages/docs.html
   - pages/projects.html
-  - pages/tutorials.html
+#  - pages/tutorials.html
 
 
 ### Author Info ###
