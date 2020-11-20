@@ -23,8 +23,15 @@ layout: default
   <h2>Three Unequal Columns</h2>
   <p>To create unequal columns, you have to use numbers. The following example will create a 25%/50%/25% split:</p>
   <div class="row">
-    <div class="col-3 bg-success">.col-3</div>
-    <div class="col-6 bg-warning">.col-6</div>
-    <div class="col-3 bg-success">.col-3</div>
+    <div class="col-3 bg-success">{% include docs/menu.html %}</div>
+    <div class="col-6 bg-warning">{{ content }}</div>
+    <div class="col-3 bg-success">
+  <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+    <nav class="toc">
+      <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
+      {% include docs/toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+    </nav>
+  </aside>
+    </div>
   </div>
 </div>
