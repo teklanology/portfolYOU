@@ -111,7 +111,7 @@ defaults:
       path: ""
       type: "tutorials"
     values:
-      layout: "slides"
+      layout: "page"
 
 ### Exclude from processing ###
 exclude:
