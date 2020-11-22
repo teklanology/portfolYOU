@@ -1,6 +1,6 @@
 ---
 created: 2020-11-22T18:59:36+00:00
-modified: 2020-11-22T23:20:59+00:00
+modified: 2020-11-22T23:21:29+00:00
 title: Contents of a macro
 ---
 
@@ -23,8 +23,7 @@ Now for a couple of generic C# tips.
 - all code is contained within { } (or curly braces)
 - all code ends with ; (semicolon)
 - variables
-
- - string - short for textstring, contained in "" (quotation marks)
- - double - a decimal
- - int - short for integer is a whole number
- - bool - short for boolean is a true or false value.
+  - string - short for textstring, contained in "" (quotation marks)
+  - double - a decimal
+  - int - short for integer is a whole number
+  - bool - short for boolean is a true or false value.
