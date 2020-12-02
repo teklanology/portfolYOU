@@ -1,3 +1,8 @@
+---
+title: Snippets
+modified: 2020-12-02T22:28:32+00:00
+---
+
 Before you can access any of the Tekla Open API objects, you will need to initialize the connection between Tekla Structures and your application.
 
 Because applications are not started together with Tekla Structures they cannot expect to have Tekla Structures running upon execution.
